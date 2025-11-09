@@ -34,14 +34,36 @@ h2{
     transition: opacity, display 2s;
     overflow: hidden;
 }
-input{
+.searchTab div:first-of-type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#searchBar{
+    background-color: #FCFBFC;
     width: 45%;
     height: 40px;
     text-align: center;
     font-size: 30px;
-    border: 2px black solid;
-    border-radius: 10px;
-    margin: 20px;
+    border: 3px black solid;
+    border-radius: 10px 0px 0px 10px;
+    margin: 20px 0px 20px 0px;
+}
+#loadBtn{
+    background-color: #FCFBFC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+	color: inherit;
+	border: 3px black solid;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    width: 80px;
+    height: 42px;
+    border-radius: 00px 10px 10px 0px;
+    color: black;
 }
 #fileContent{
     width: 90%;
@@ -57,6 +79,7 @@ ul{
     font-size: 36px;
     padding: 0px;
     line-height: 70px;
+    margin: 20px;
 }
 @media only screen and (min-height: 920px) and (max-height: 1200px){
     h2{
